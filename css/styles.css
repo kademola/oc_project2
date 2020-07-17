@@ -1,0 +1,131 @@
+body {
+	font-family: Verdana, PT Sans Narrow, Georgia, Courier, Helvetica;
+}
+
+.box-bckgrd {
+	background-color: #424242;
+	color: #FFCA28 ;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+}
+
+.first {
+	flex: 1;
+	background-color: #FFCA28;
+
+}
+
+.second {
+	flex: 3;
+	background-color: #FFFFFF;
+	padding: 0 20px 0 40px;
+	margin-top: 40px;
+
+}
+
+.column-right {
+	padding: 0 20px 0 20px;
+	text-align: justify;
+}
+
+
+
+#details-container {
+	padding-top: 55px;
+}
+
+.grid-layout {
+	display: grid;
+
+}
+
+.flex-layout {
+	display: flex;
+}
+
+
+.side-1 {
+	flex: 1;
+}
+
+.side-3 {
+	flex: 1;
+}
+
+.side-4 {
+	flex: 3;
+}
+
+#profile-img {
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px #FFD600;
+}
+
+#img-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+hr {
+	width: 100%;
+	color: #FFCA28;
+	border-width:0;
+	background-color: #FFCA28;
+	height: 2px;
+	margin-left: 0;
+	padding-top: 0;
+}
+
+.line_height {
+	line-height: 0.2;
+	display: flex;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: -1.6em;
+	padding-bottom: 0;
+	
+}
+
+.details-img {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: -22px;
+}
+
+#job-title{
+	margin-bottom: -18px;
+	font-size: 0.92em;
+	font-weight: 200;
+}
+
+#job-line {
+	width: 7%;
+	color: #FFCA28;
+	border-width:0;
+	background-color: #FFCA28;
+	height: 2px;
+	text-align: left;
+	margin-left: 0;
+}
+
+#last-name-id {
+	color: #FFCA28;
+	margin-right: 10px;
+
+}
+
+.img-space {
+	margin-right: 20px;
+}
+
+.hobbies-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
